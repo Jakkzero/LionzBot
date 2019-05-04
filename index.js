@@ -5,7 +5,7 @@ const token = '';
  
 bot.on('ready', () =>{
     console.log('This bot is online!');
-    bot.user.setActivity('Subscribe to my channel! youtube.com/mrzlionz :) | Try l!help for some help uwu')
+    bot.user.setActivity('| l!help | Subscribe to my channel! youtube.com/mrzlionz :) |')
 })
  
 bot.on('message', msg=>{
@@ -23,6 +23,14 @@ bot.on('message', msg=>{
  
     if(msg.content ===  "l!balanced"){
         msg.reply('Perfectly balanced, like all things should be. <:thanosxd:574302028331745280>')
+    }
+
+    if(msg.content ===  "l!youtube"){
+        msg.reply("<https://youtube.com/mrzlionz>")
+    }
+
+    if(msg.content ===  "l!twitch"){
+        msg.reply('<https://twitch.tv/yttlionz>')
     }
 })
  
