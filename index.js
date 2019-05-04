@@ -6,11 +6,13 @@ const token = '';
 bot.on('ready', () =>{
     console.log('This bot is online!');
     bot.user.setActivity('Subscribe to my channel! youtube.com/mrzlionz :) | Try l!help for some help uwu')
+})
  
+bot.on('message', msg=>{
     if(msg.content ===  "l!hello"){
         msg.reply('Whats good nibba');
     }
-
+ 
     if(msg.content ===  "l!help"){
         msg.reply("The Lionz-Bot github page and its commands can be found at: <https://github.com/Jakkzero/LionzBot>");
     }
@@ -20,7 +22,7 @@ bot.on('ready', () =>{
     }
  
     if(msg.content ===  "l!balanced"){
-        msg.reply('Perfectly balanced, like all things should be. :thanosxd:')
+        msg.reply('Perfectly balanced, like all things should be. <:thanosxd:574302028331745280>')
     }
 })
  
