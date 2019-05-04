@@ -32,6 +32,14 @@ bot.on('message', msg=>{
     if(msg.content ===  "l!twitch"){
         msg.reply('<https://twitch.tv/yttlionz>')
     }
+
+    if(msg.content ===  'l!pickle'){
+        msg.reply('<https://www.youtube.com/watch?v=l6nc-CEuwVQ>')
+    }
+
+    if(msg.content === 'l!die'){
+        msg.reply(' No u, <:thanosxd:574302028331745280>')
+    }
 })
  
 bot.login(token);
