@@ -18,3 +18,9 @@ Says hello.
 
 ## Thanos (l!balanced)
 Thanos lol, replace the emoteid with the one you have from your server. (Type ``\:emojiname:`` in your server)
+
+## Twitch (l!twitch)
+Shamelessly shouts out Lion's Twitch.
+
+## Youtube (l!youtube)
+Shamelessly shouts out Lion's YouTube.
