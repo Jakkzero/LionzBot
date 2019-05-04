@@ -17,4 +17,4 @@ Displays a link to this page.
 Says hello.
 
 ## Thanos (l!balanced)
-Thanos lol, replace the emoteid with the one you have from your server. (Use \:emojiname:)
+Thanos lol, replace the emoteid with the one you have from your server. (Type ``\:emojiname:`` in your server)
